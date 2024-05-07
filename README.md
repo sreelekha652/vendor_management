@@ -30,5 +30,7 @@ Usage
 https://docs.google.com/spreadsheets/d/1xeO2UTuq6NiJiDtx3SH8fUxiGxsTMXnVRS4NrsJV6Hc/edit?usp=sharing
 
 Authentication
+
+
 This API uses token-based authentication. To obtain a token, send a POST request to http://localhost:8000/vendor/loginapi/ with your username . Include the token in the Authorization header of subsequent requests.
   
